@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int avg = sc.nextInt();
+        int w1 = sc.nextInt();
+        int w2 = sc.nextInt();
+        int w3 = avg * 3 - w1 - w2;
+        System.out.print(w3);
+    }
+}
